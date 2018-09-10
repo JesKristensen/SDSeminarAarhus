@@ -2,7 +2,8 @@ table 123456701 "CSD Seminar"
 {
     Caption='Seminar';
     DataClassification = ToBeClassified;
-    
+    DrillDownPageId = 123456702;
+    LookupPageId = 123456702;
     fields
     {
         field(10;"No.";Code[20])

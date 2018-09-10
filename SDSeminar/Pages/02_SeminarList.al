@@ -53,18 +53,7 @@ page 123456702 "CSD Seminar List"
         }
     }
 
-    actions
-    {
-        area(processing)
-        {
-            action(ActionName)
-            {
-                trigger OnAction();
-                begin
-                end;
-            }
-        }
-    }
+    
     actions
     {
         area(Navigation)
