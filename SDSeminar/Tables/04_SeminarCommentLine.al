@@ -15,7 +15,7 @@ table 123456704 "CSD Seminar Comment Line"
         }
         field(20; "Document Line No.";integer)
         {
-            Caption='Document Line No.'
+            Caption='Document Line No.';
         }
         field(30; "No.";Code[20])
         {
@@ -24,19 +24,19 @@ table 123456704 "CSD Seminar Comment Line"
         }
         field(40; "Line No.";Integer)
         {
-             Caption='Line No.'
+             Caption='Line No.';
         }
         field(50; "Date";Date)
         {
-             Caption='Date'
+             Caption='Date';
         }
         field(60; "Code";Code[10])
         {
-             Caption='Code'
+             Caption='Code';
         }
         field(70; "Comment";Text[80])
         {
-             Caption='Comment'
+             Caption='Comment';
         }
         
     }
