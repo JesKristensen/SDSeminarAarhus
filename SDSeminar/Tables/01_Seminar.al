@@ -66,7 +66,7 @@ table 123456701 "CSD Seminar"
             //CalcFormula=exist("Seminar Comment Line" where("Table 
             // Name"= const("Seminar"),"No."=Field("No.")));
         }
-        field(100;"Seminar Price";Code[20])
+        field(100;"Seminar Price";Decimal)
         {
             Caption='Seminar Price';
             AutoFormatType=1;
