@@ -3,6 +3,8 @@ table 123456732 "CSD Seminar Ledger Entry"
     // CSD1.00 - 2018-01-01 - D. E. Veloper
     //   Chapter 7 - Lab 1 - 3
     //     - Created new table
+    // Chapter 8 - Lab 2-1 
+    // Added key2
 
     Caption = 'Seminar Ledger Entry';
 
@@ -157,6 +159,8 @@ table 123456732 "CSD Seminar Ledger Entry"
         key(Key1;"Entry No.")
         {
         }
+        key(key2;"Document No.","Posting Date")
+         { }
     }
 
     fieldgroups
